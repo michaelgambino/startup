@@ -20,5 +20,7 @@ pip install . &&
 
 cd kijiji_manager &&
 
-cp kijiji-manager-sample.cfg ~/kijiji-manager/instance/kijiji-manager.cfg &&
+python3 keychange.py
+
+mv kijiji-manager.cfg ~/kijiji-manager/instance/kijiji-manager.cfg &&
 
