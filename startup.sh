@@ -10,11 +10,11 @@ git clone https://github.com/michaelgambino/startup.git &&
 
 # Install venv
 
-sudo apt install python3.7-venv &&
+sudo apt-get install python3-venv -y &&
 
 # Install selenium
 
-pip3 install selenium && pip3 install -r ~/startup/requirements.txt &&
+pip3 install selenium && pip3 install -r ~/startup/requirements.txt && pip3 install wheel &&
 
 # Install kijiji-manager
 
