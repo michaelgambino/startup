@@ -10,11 +10,11 @@ git clone https://github.com/michaelgambino/startup.git &&
 
 # Install venv
 
-sudo apt install python3.8-venv &&
+sudo apt install python3.7-venv &&
 
 # Install selenium
 
-pip3 install selenium && pip3 install -r ~/mathbike8/startup/requirements.txt
+pip3 install selenium && pip3 install -r ~/startup/requirements.txt &&
 
 # Install kijiji-manager
 
