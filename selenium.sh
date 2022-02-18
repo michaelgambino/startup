@@ -6,4 +6,4 @@ sudo apt install python3.8-venv &&
 
 # Install selenium
 
-pip install selenium && 
+pip install selenium
