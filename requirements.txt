@@ -1,0 +1,9 @@
+Flask
+Flask-WTF
+Flask-Login
+Flask-Executor
+WTForms
+httpx
+xmltodict
+is-safe-url
+phonenumbers
