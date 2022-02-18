@@ -24,9 +24,13 @@ pip install . &&
 
 cd kijiji_manager &&
 
+pip install -r requirements.txt &&
+
 python3 ~/startup/keychange.py &&
 
 mv kijiji-manager.cfg ~/kijiji-manager/instance/kijiji-manager.cfg &&
+
+cd && cd kijiji-manager &&
 
 python3 -m kijiji_manager &&
 
