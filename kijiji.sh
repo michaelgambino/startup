@@ -1,3 +1,7 @@
+# 
+
+git clone https://github.com/michaelgambino/Startup.git
+
 # Install kijiji-manager
 
 git clone https://github.com/jackm/kijiji-manager.git &&
@@ -13,3 +17,4 @@ cd kijiji_manager &&
 python3 keychange.py
 
 mv kijiji-manager.cfg ~/kijiji-manager/instance/kijiji-manager.cfg &&
+
