@@ -28,7 +28,7 @@ pip3 install . &&
 
 cd kijiji_manager &&
 
-python3 ~/startup/keychange.py &&
+python3 ~/Desktop/startup/keychange.py &&
 
 mv kijiji-manager.cfg ~/kijiji-manager/instance/kijiji-manager.cfg &&
 
