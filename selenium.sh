@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Install venv
 
 sudo apt install python3.8-venv &&
@@ -18,4 +20,5 @@ pip install . &&
 
 cd kijiji_manager &&
 
-cp kijiji-manager-sample.cfg ~/kijiji-manager/instance/kijiji-manager.cfg
+cp kijiji-manager-sample.cfg ~/kijiji-manager/instance/kijiji-manager.cfg &&
+
