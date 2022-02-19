@@ -17,8 +17,8 @@ driver.find_element(By.ID, "password").click()
 driver.find_element(By.ID, "password").send_keys("dC#&M73xg!sgSTqojAhqh5rQMmys")
 driver.find_element(By.CSS_SELECTOR, "input:nth-child(6)").click()
 
-driver.find_element(By.CSS_SELECTOR, "td .fa-reply").click()
+#driver.find_element(By.CSS_SELECTOR, "td .fa-reply").click()
 #driver.find_element(By.LINK_TEXT, "Repost all ads").click()
-driver.find_element(By.LINK_TEXT, "Logout").click()
+#driver.find_element(By.LINK_TEXT, "Logout").click()
 
-driver.quit()
+#driver.quit()
