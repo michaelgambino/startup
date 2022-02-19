@@ -5,6 +5,7 @@ git clone https://github.com/rybodiddly/Kijiji-Reposter.git &&
 cd Kijiji-Reposter &&
 python3 -m venv venv &&
 source venv/bin/activate &&
+pip3 install wheel &&
 pip3 install WTForms==2.3.3 &&
 pip3 install -r requirements.txt &&
 
